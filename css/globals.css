@@ -12,7 +12,6 @@
   src: url("../fonts/DINNextLTPro-Regular.otf") format("opentype");
 }
 
-
 .page a {
   display: contents;
   text-decoration: none;
@@ -66,10 +65,8 @@
   justify-content: center;
   position: relative;
   width: 100vw;
-  padding: 33;
+  padding: 32px 32px 0px;
 }
-
-.heading-top {}
 
 .frame-7 {
   align-items: center;
@@ -80,7 +77,6 @@
 
 .card-content {
   gap: 16px;
-  /* padding: 0px 32px; */
   width: 100vw;
 }
 
@@ -121,7 +117,8 @@
   padding: 21px 32px 20px;
   position: relative;
   width: 100vw;
-  font-family: DIN Next LT Pro-Regular
+  font-family: DIN Next LT Pro-Regular;
+  margin-top: 60px;
 }
 
 .footer-link {
@@ -138,7 +135,7 @@
   width: fit-content;
 }
 
-.card-2 {
+.card-container {
   display: flex;
   position: relative;
   flex-wrap: wrap;
