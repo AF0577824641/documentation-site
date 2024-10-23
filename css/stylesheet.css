@@ -1,0 +1,233 @@
+/* Page - Homepage */
+
+body {
+  margin: 0;
+  background: #121619;
+}
+.table {
+  display: table;
+  width: 50%;
+  border-collapse: collapse;
+  padding: 32px 0px 0px;
+  position: relative;
+}
+.table-row {
+  display: table-row;
+}
+.table-cell {
+  display: table-cell;
+  padding: 8px;
+  border: 1px solid #bdbdbd;
+  background-color: #21272A;
+  color: #ffffff;
+  font-family: "DIN Next LT Pro", sans-serif; 
+}
+.table-header {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-family: "DIN Next LT Pro", sans-serif; 
+}
+
+.homepage .photography .research{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+}
+
+.homepage .divider {
+  height: 24px;
+  position: relative;
+  top: calc(50.00% - 12px);
+  width: 1px;
+}
+
+.homepage .content {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  height: 831px;
+  padding: 32px 32px 0px;
+  position: relative;
+  width: 100vw;
+}
+
+.homepage .heading {
+  /* height: 140px; */
+  letter-spacing: 0.16px;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  font-family: DIN Next LT Pro-Regular
+}
+
+.homepage .body {
+  letter-spacing: 0.16px;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  width: 552.77px;
+  font-family: DIN Next LT Pro-Regular
+}
+
+.homepage .card {
+  align-items: flex-start;
+  border-radius: 4px;
+  flex-direction: column;
+  gap: 24px;
+  height: 320px;
+  max-height: 320px;
+  padding: 16px 0px 8px;
+  width: 332px;
+  background-color:#353535
+}
+
+.homepage .card-1 {
+  align-items: flex-start;
+  background-color: #00000080;
+  background-image: url(../img/card-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  flex-direction: column;
+  gap: 24px;
+  height: 320px;
+  max-height: 320px;
+  padding: 16px 0px 8px;
+  width: 332px;
+}
+.homepage .card-3 {
+  align-items: flex-start;
+  background-color: #00000080;
+  background-image: url(../img/card-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  flex-direction: column;
+  gap: 24px;
+  height: 320px;
+  max-height: 320px;
+  padding: 16px 0px 8px;
+  width: 332px;
+}
+.homepage .card-4 {
+  align-items: flex-start;
+  background-color: #00000080;
+  background-image: url(../img/image-3@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  flex-direction: column;
+  gap: 24px;
+  height: 320px;
+  max-height: 320px;
+  padding: 16px 0px 8px;
+  width: 332px;
+}
+.homepage .card-5 {
+  align-items: flex-start;
+  background-color: #00000080;
+  background-image: url(../img/image-4@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  flex-direction: column;
+  gap: 24px;
+  height: 320px;
+  max-height: 320px;
+  padding: 16px 0px 8px;
+  width: 332px;
+}
+.homepage .card-6 {
+  align-items: flex-start;
+  background-color: #00000080;
+  background-image: url(../img/image-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  flex-direction: column;
+  gap: 24px;
+  height: 320px;
+  max-height: 320px;
+  padding: 16px 0px 8px;
+  width: 332px;
+}
+
+.card-6.card-2 {}
+
+.card-6.card-2 {}
+.homepage .card-7 {
+  align-items: flex-start;
+  background-color: #00000080;
+  background-image: url(../img/image-2@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  flex-direction: column;
+  gap: 24px;
+  height: 320px;
+  max-height: 320px;
+  padding: 16px 0px 8px;
+  width: 332px;
+}
+.homepage .card-7 {
+  align-items: flex-start;
+  background-color: #00000080;
+  background-image: url(../img/card-letter-01.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  flex-direction: column;
+  gap: 24px;
+  height: 320px;
+  max-height: 320px;
+  padding: 16px 0px 8px;
+  width: 332px;
+}
+.homepage .card-7 {
+  align-items: flex-start;
+  background-color: #00000080;
+  background-image: url(../img/card-letter-01.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  flex-direction: column;
+  gap: 24px;
+  height: 320px;
+  max-height: 320px;
+  padding: 16px 0px 8px;
+  width: 332px;
+}
+.homepage .card-8 {
+  align-items: flex-start;
+  background-color: #00000080;
+  background-image: url(../img/card-letter-02.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  flex-direction: column;
+  gap: 24px;
+  height: 320px;
+  max-height: 320px;
+  padding: 16px 0px 8px;
+  width: 332px;
+}
+.homepage .card-9 {
+  align-items: flex-start;
+  background-color: #00000080;
+  background-image: url(../img/image-2@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  flex-direction: column;
+  gap: 24px;
+  height: 320px;
+  max-height: 320px;
+  padding: 16px 0px 8px;
+  width: 332px;
+}
+
+
+
